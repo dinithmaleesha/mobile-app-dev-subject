@@ -13,8 +13,10 @@ public class BeerExpert {
         } else if (spinner.equals("Light")){
             brand.add("Light Beer 01");
             brand.add("Light Beer 02");
+            brand.add("Light Beer 02");
         } else if (spinner.equals("Beer")) {
             brand.add("Beer 01");
+            brand.add("Beer 02");
             brand.add("Beer 02");
         }
 
