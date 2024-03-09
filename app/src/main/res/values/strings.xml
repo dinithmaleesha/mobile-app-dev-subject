@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Beer Adviser</string>
+    <string name="button_name">Button String</string>
+    <string name="text"></string>
+
+
+    <string-array name="sprinnerBeer">
+        <item>Light</item>
+        <item>Amber</item>
+        <item>Beer</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+</resources>
