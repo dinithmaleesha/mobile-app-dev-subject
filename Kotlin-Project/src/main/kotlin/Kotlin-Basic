@@ -1,0 +1,49 @@
+Kotlin runs on the Java Virtual Machine (JVM) and can also be complied to JavaScript or native code
+
+'fun' is used to declare a function
+'main()' is the entry point of the program
+
+fun main() {
+    println("Hello, World!")
+}
+
+***** Variable and Data Types *****
+Don't need to explicitly specify the data type of a variable (Kotlin supports type inference)
+
+val name = "John" // String type is inferred
+var age: Int = 25 // Explicitly specifying Int type
+
+***** 'val' (Value) *****
+'val' is used for immutable (read-only) variable. meaning their values cannot be changes once initialized
+val pi = 3.14
+// pi = 3.14159 // Error: Val cannot be reassigned
+
+***** 'var' (Variable) *****
+'var' is used for mutable variables.  meaning their values can be changed after initialization
+var counter = 0
+counter = 1 // Valid: var can be reassigned
+
+
+***** Function *****
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+
+
+
+***** Classes and Objects *****
+Kotlin supports object-oriented programming with classes and objects.
+
+class Person(val name: String, var age: Int) {
+    fun speak() {
+        println("Hello, my name is $name")
+    }
+}
+
+fun main() {
+    val person = Person("Alice", 30)
+    println(person.name) // Accessing property
+    person.age = 31
+    person.speak() // Calling method
+}
+
